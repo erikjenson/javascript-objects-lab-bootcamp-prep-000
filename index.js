@@ -12,8 +12,7 @@ object = Object.assign(object, {[key]: value}); //object with new pair, modify o
 
 function deleteFromObjectByKey(object, key){
    var x = Object.assign({}, object);
-   delete x[key];
-  // deletes key from clone of object (non-destructive)
+   delete x[key]; // deletes key from clone of object (non-destructive)
   return x;
 }
 
